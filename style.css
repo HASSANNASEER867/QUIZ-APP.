@@ -1,0 +1,92 @@
+/* Base styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(140, 170, 235);
+}
+
+
+
+.container {
+    width: 90%;
+    max-width: 440px; /* Adjust based on your preference */
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 11px;
+    margin-top: 15%;
+    background-image: url(download1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aqua;
+}
+
+.head {
+    text-align: center;
+    padding: 11px;
+    font-size: 24px; /* Adjusted for better readability */
+}
+
+.quiz {
+    margin: 0 auto;
+    padding: 0 10px; /* Adjust padding for smaller screens */
+}
+
+.btn {
+    text-align: center;
+    padding: 11px;
+}
+
+button {
+    width: 100%;
+    max-width: 140px;
+    height: 40px;
+    background-color: rgb(3, 3, 33);
+    color: white;
+    font-size: 16px; /* Adjusted for better readability on small screens */
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .main {
+        width: 95%;
+    }
+
+    .container {
+        width: 95%;
+        max-width: none; /* Remove max-width on smaller screens */
+    }
+
+    .head {
+        font-size: 20px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .head {
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 12px;
+        height: 35px;
+    }
+}
